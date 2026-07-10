@@ -79,3 +79,11 @@ def build_feed(cfg: dict) -> Path:
     fg.rss_file(str(out), pretty=True)
     print(f"  ✓ Feed geschrieben: {out} ({len(episodes)} Folgen)")
     return out
+
+
+if __name__ == "__main__":
+    # Direktaufruf: Feed aus den vorhandenen Episoden neu bauen.
+    # Praktisch, nachdem man Episode-Dateien manuell gelöscht hat.
+    from utils import load_config
+
+    build_feed(load_config())
