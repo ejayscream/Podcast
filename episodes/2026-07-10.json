@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-10",
+  "title": "Jet-Long & Infinity-Parser2: Neue Horizonte für Kontext und Dokumentparsing",
+  "subtitle": "Mehr Kontext, smarteres Parsing: Zwei bahnbrechende Ansätze für produktive KI-Pipelines.",
+  "description": "Heute tauchen wir tief in Jet-Long zur dynamischen Langkontext-Verarbeitung und Infinity-Parser2 für multimodales Dokumentparsing ein. Es geht um bifokales RoPE, context window-Skalierung, Multi-Task-RL auf massiven synthetischen Datensätzen – und den realen Impact auf RAG, Enterprise Search und KI-gestützte Dokumentanalysen.",
+  "tags": [
+    "Long Context",
+    "LLM",
+    "Parsing",
+    "Reinforcement Learning",
+    "RoPE",
+    "Multimodal"
+  ],
+  "sources": [
+    "https://arxiv.org/abs/2607.07740?utm_source=openai",
+    "https://arxiv.org/abs/2607.07836?utm_source=openai"
+  ],
+  "slug": "jet-long-infinity-parser2-neue-horizonte-für-kontext-und-dokumentparsing",
+  "duration_seconds": 425,
+  "word_count": 1063
+}

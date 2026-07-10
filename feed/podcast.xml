@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KI Daily – Dein täglicher AI Deep Dive</title>
+    <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
+    <description>Jeden Morgen ein kompakter, tiefgehender Blick in die KI-Welt: virale Konzepte, neue Tools, praktische Anwendungsfälle und das Detailwissen, das dich technisch wirklich weiterbringt. Vollautomatisch generiert.
+</description>
+    <atom:link href="https://ejayscream.github.io/Podcast/feed/podcast.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://ejayscream.github.io/Podcast/assets/cover.png</url>
+      <title>KI Daily – Dein täglicher AI Deep Dive</title>
+      <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
+    </image>
+    <language>de</language>
+    <lastBuildDate>Fri, 10 Jul 2026 19:56:11 +0000</lastBuildDate>
+    <itunes:author>KI Daily</itunes:author>
+    <itunes:category text="Technology"/>
+    <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>KI Daily</itunes:name>
+      <itunes:email>zloanthepriest@gmx.de</itunes:email>
+    </itunes:owner>
+    <itunes:subtitle>Konkrete Einblicke, Detailwissen und die Trends, die die KI-Welt gerade bewegen.</itunes:subtitle>
+    <itunes:summary>Jeden Morgen ein kompakter, tiefgehender Blick in die KI-Welt: virale Konzepte, neue Tools, praktische Anwendungsfälle und das Detailwissen, das dich technisch wirklich weiterbringt. Vollautomatisch generiert.
+</itunes:summary>
+    <item>
+      <title>Jet-Long &amp; Infinity-Parser2: Neue Horizonte für Kontext und Dokumentparsing</title>
+      <description>Heute tauchen wir tief in Jet-Long zur dynamischen Langkontext-Verarbeitung und Infinity-Parser2 für multimodales Dokumentparsing ein. Es geht um bifokales RoPE, context window-Skalierung, Multi-Task-RL auf massiven synthetischen Datensätzen – und den realen Impact auf RAG, Enterprise Search und KI-gestützte Dokumentanalysen.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-07-10.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-07-10.mp3" length="9441792" type="audio/mpeg"/>
+      <pubDate>Fri, 10 Jul 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>7:05</itunes:duration>
+      <itunes:subtitle>Mehr Kontext, smarteres Parsing: Zwei bahnbrechende Ansätze für produktive KI-Pipelines.</itunes:subtitle>
+    </item>
+  </channel>
+</rss>
