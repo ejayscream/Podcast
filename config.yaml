@@ -44,10 +44,10 @@ content:
 
 # ---- OpenAI-Modelle (IDs ggf. an deinen Account anpassen) ----
 openai:
-  research_model: "gpt-4.1"        # Modell für die Web-Recherche (Responses API + web_search)
-  writer_model: "gpt-4.1"          # Modell fürs Skript-Schreiben
+  research_model: "gpt-5.6-sol"    # Modell für die Web-Recherche (Responses API + web_search)
+  writer_model: "gpt-5.6-sol"      # Modell fürs Skript-Schreiben
   tts_model: "gpt-4o-mini-tts"     # Text-to-Speech-Modell
-  tts_voice: "onyx"                # Stimme: alloy, echo, fable, onyx, nova, shimmer, sage, ...
+  tts_voice: "coral"               # freundliche, warme weibliche Stimme (Alt.: nova, shimmer, sage)
   tts_instructions: >
     Sprich wie ein ruhiger, kompetenter deutscher Tech-Host am Morgen:
     klar, wach, natürlich, mit sinnvollen Pausen. Nicht hektisch, nicht künstlich.
