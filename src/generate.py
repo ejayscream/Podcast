@@ -16,21 +16,31 @@ def research(client: OpenAI, cfg: dict, seed: str, date_iso: str) -> str:
     n = cfg["content"]["topics_per_episode"]
     prompt = f"""Heutiges Datum: {date_iso}.
 
-Du bist Rechercheur für einen anspruchsvollen deutschen KI-Podcast.
-Unten stehen frische Feed-Einträge als Ausgangspunkt. Nutze Web-Suche, um die
-{n} lohnendsten Themen für heute zu finden und zu vertiefen.
+Du bist Rechercheur für einen praxisorientierten deutschen KI-Podcast.
+Der Hörer ist IT-Systemadmin, IT-Lead und KI-Consultant – Anwender und
+Implementierer, KEIN Programmierer/Modellentwickler. Er will am Zahn der Zeit
+sein, um zu erkennen, WO er neue KI-Tools/Projekte im Beruf (IT-Betrieb,
+Beratung, Team, Automatisierung) und privat einsetzen kann.
+
+Nutze Web-Suche und orientiere dich am Stil und den Themen von tldr.tech
+(tldr.tech/ai) – kompakt, praxisnah, tool- und anwendungsgetrieben. Ziehe
+außerdem gerade trending Projekte heran (z.B. GitHub Trending, Product Hunt,
+neue Tool-/Feature-Launches). Wähle die {n} für heute relevantesten Themen.
 
 Auswahlkriterien (in dieser Priorität):
-1. Bringt den Hörer technisch weiter (Konzept, Methode, Tool, Technik).
-2. Ist gerade viral / stark diskutiert in der KI-Community.
-3. Praktischer Anwendungsnutzen – neue Tools, Verbesserungen, Anwendungsbereiche.
-Meide reine PR-Meldungen und oberflächliche News.
+1. PRAKTISCHER NUTZEN / echter Impact – was machen Leute damit, das wirklich
+   etwas verändert? (nicht: technische Neuheit um ihrer selbst willen)
+2. Gerade trending / breit diskutiert / frisch gelauncht.
+3. Konkret integrierbar für einen IT-Profi & Anwender (Beruf oder privat).
+MEIDE: reine Forschungspaper, Modelltraining-/Mathematik-Details, PR-Geblubber.
 
 Für JEDES gewählte Thema liefere:
-- Worum es geht (präzise, keine Buzzwords)
-- Warum es JETZT relevant ist
-- Die technischen Details / das Kernkonzept, das man verstehen sollte
-- Konkrete praktische Implikation oder Anwendung
+- Worum es geht – verständlich, in einem Satz auf den Punkt
+- Warum es JETZT relevant/trending ist
+- Was Leute KONKRET damit machen (echte Anwendungsfälle, Beispiele, Impact)
+- Wie ein IT-Lead/KI-Consultant ODER Privatanwender es einsetzen/integrieren
+  könnte (konkrete Einsatzideen)
+- Reifegrad/Aufwand: fertig nutzbar, Beta, Self-Hosting nötig, Kosten? (grob)
 - 2–4 belastbare Quellen (URL)
 
 FEED-EINTRÄGE ALS AUSGANGSPUNKT:
@@ -60,15 +70,28 @@ Stil & Sprache: {style}.
 Zielgruppe: {audience}
 Länge: ca. {minutes} Minuten Sprechzeit (~{target_words} Wörter).
 
+Redaktioneller Fokus: PRAXIS und ANWENDUNG, nicht Technik-Tiefe. Der Hörer will
+wissen, was ein Tool/Projekt kann, was es bringt und wo ER es einsetzen könnte –
+nicht, wie es intern funktioniert. Solide Einordnung zum Mitreden und Entscheiden,
+aber niemals Forschungs-, Mathematik- oder Coding-Ebene.
+
+Aufbau JEDES Themas (Format "Thema + so setzt du's ein"):
+1. Was ist es – in einfachen Worten auf den Punkt.
+2. Warum es gerade relevant/trending ist.
+3. Was Leute konkret damit machen (echte Beispiele, echter Impact).
+4. "So könntest du's einsetzen" – konkrete Einsatzideen für einen IT-Lead/
+   KI-Consultant im Berufsalltag UND fürs Private/Produktivität.
+5. Kurze ehrliche Einordnung: wie reif, wie viel Aufwand, für wen lohnt es sich.
+
 Anforderungen an das Skript (Feld "script"):
 - Reiner Sprechtext, den eine TTS-Stimme 1:1 vorliest. KEINE Regieanweisungen,
   keine Zwischenüberschriften, keine Aufzählungszeichen, keine Emojis, keine URLs vorlesen.
 - Natürliche gesprochene Sprache, ganze Sätze, sinnvolle Absätze (Absatz = Sprechpause).
-- Kurzer Begrüßungs-Opener mit Datum, dann pro Thema ein echter Deep Dive
-  (Konzept erklären, warum es zählt, technisches Detail, praktische Anwendung),
-  am Ende ein knapper Ausblick/Abschluss.
-- Fachbegriffe im englischen Original, aber auf Deutsch erklärt.
-- Substanz statt Hype. Der Hörer soll danach wirklich etwas Neues verstanden haben.
+- Kurzer Begrüßungs-Opener mit Datum, dann die Themen wie oben, am Ende ein
+  knapper Abschluss (z.B. was man heute mal ausprobieren könnte).
+- Fachbegriffe im englischen Original, aber sofort auf Deutsch verständlich erklärt.
+- Anwendernah und konkret statt abstrakt. Nach dem Hören soll klar sein:
+  "Das ist es, das bringt es, DA könnte ich es nutzen."
 
 Gib AUSSCHLIESSLICH gültiges JSON zurück, exakt dieses Schema:
 {{

@@ -31,11 +31,16 @@ content:
   language_style: "Deutsch, Fachbegriffe (z.B. context window, RAG, fine-tuning) im englischen Original belassen"
   target_minutes: 10          # Ziellänge der Folge (8–12)
   words_per_minute: 150       # Sprechtempo-Annahme für Längenberechnung
-  topics_per_episode: 2       # Anzahl vertiefter Themen pro Folge
+  topics_per_episode: 3       # Anzahl Themen pro Folge (mehr Breite, praxisnah)
   audience: >
-    Technisch versierter Hörer, der vollumfänglich über KI-Tools im Bilde sein
-    will, neue Anwendungsbereiche und Verbesserungen sucht. Kein Anfänger –
-    will Substanz, keine Buzzwords.
+    Erfahrener IT-Profi: IT-Systemadministrator, IT-Lead und KI-Consultant.
+    KEIN Programmierer oder Modellentwickler und will es nicht werden – bleibt
+    Anwender und Implementierer. Ziel: am Zahn der Zeit sein, um zu erkennen,
+    WO sich neue KI-Tools und -Projekte sinnvoll integrieren lassen – im Beruf
+    (IT-Betrieb, Beratung, Team, Automatisierung) UND privat. Braucht solide
+    Einordnung (genug, um mitzureden und fundiert zu entscheiden), aber KEINE
+    Forschungs-, Mathematik- oder Coding-Tiefe. Interessiert an: konkreten
+    Anwendungsfällen, echtem Impact, neuen Tools, Workflows und Integration.
 
 # ---- OpenAI-Modelle (IDs ggf. an deinen Account anpassen) ----
 openai:
@@ -51,16 +56,18 @@ openai:
 sources:
   max_seed_items: 25          # so viele Feed-Einträge maximal ins Research geben
   feeds:
-    - name: "arXiv cs.AI"
-      url: "http://export.arxiv.org/rss/cs.AI"
-    - name: "arXiv cs.LG"
-      url: "http://export.arxiv.org/rss/cs.LG"
-    - name: "arXiv cs.CL"
-      url: "http://export.arxiv.org/rss/cs.CL"
-    - name: "Hacker News (AI/LLM)"
-      url: "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+agent&points=80"
-    - name: "Hugging Face Blog"
-      url: "https://huggingface.co/blog/feed.xml"
+    - name: "Hacker News (AI-Tools, viel diskutiert)"
+      url: "https://hnrss.org/newest?q=AI+OR+LLM+OR+ChatGPT+OR+Claude+OR+agent+OR+copilot&points=100"
+    - name: "TechCrunch AI"
+      url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    - name: "VentureBeat AI"
+      url: "https://venturebeat.com/category/ai/feed/"
+    - name: "Ars Technica AI"
+      url: "https://arstechnica.com/ai/feed/"
+    - name: "Product Hunt (neue Tools)"
+      url: "https://www.producthunt.com/feed"
+    # Hinweis: tldr.tech & GitHub Trending haben keinen stabilen RSS –
+    # die werden im Recherche-Schritt gezielt per Web-Suche einbezogen.
 
 # ---- Archiv / Aufräumen ----
 archive:

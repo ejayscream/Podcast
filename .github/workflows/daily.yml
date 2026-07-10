@@ -6,6 +6,11 @@ on:
     # Immer deutlich vor 7 Uhr, damit das iPhone die Folge morgens hat.
     - cron: "0 3 * * *"
   workflow_dispatch:        # manuelles Auslösen zum Testen
+    inputs:
+      force:
+        description: "Heutige Folge neu erzeugen (überschreiben)"
+        type: boolean
+        default: false
 
 # Rechte, damit der Job Episoden & Feed zurück ins Repo committen darf
 permissions:
@@ -36,7 +41,12 @@ jobs:
       - name: Folge erzeugen
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python src/main.py
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            python src/main.py --force
+          else
+            python src/main.py
+          fi
 
       - name: Episoden & Feed committen
         run: |
