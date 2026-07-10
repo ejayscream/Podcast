@@ -1,21 +1,27 @@
 {
   "date": "2026-07-10",
-  "title": "Jet-Long & Infinity-Parser2: Neue Horizonte für Kontext und Dokumentparsing",
-  "subtitle": "Mehr Kontext, smarteres Parsing: Zwei bahnbrechende Ansätze für produktive KI-Pipelines.",
-  "description": "Heute tauchen wir tief in Jet-Long zur dynamischen Langkontext-Verarbeitung und Infinity-Parser2 für multimodales Dokumentparsing ein. Es geht um bifokales RoPE, context window-Skalierung, Multi-Task-RL auf massiven synthetischen Datensätzen – und den realen Impact auf RAG, Enterprise Search und KI-gestützte Dokumentanalysen.",
+  "title": "ChatGPT Work, Sim und Flint: KI übernimmt ganze Abläufe",
+  "subtitle": "Drei neue Werkzeuge zeigen, wie aus einzelnen Prompts belastbare Arbeitsabläufe, Agents und Reports werden.",
+  "description": "ChatGPT Work entwickelt den Chatbot zur ausführenden Arbeitsoberfläche für längere Aufgaben weiter. Sim bietet einen visuellen und selbst hostbaren Baukasten für AI-Agent-Workflows. Microsoft Flint soll dafür sorgen, dass Agents aus Betriebs- und Geschäftsdaten reproduzierbare, brauchbare Diagramme erzeugen.",
   "tags": [
-    "Long Context",
-    "LLM",
-    "Parsing",
-    "Reinforcement Learning",
-    "RoPE",
-    "Multimodal"
+    "ChatGPT Work",
+    "AI Agents",
+    "Automatisierung",
+    "Self-Hosting",
+    "Reporting",
+    "MCP"
   ],
   "sources": [
-    "https://arxiv.org/abs/2607.07740?utm_source=openai",
-    "https://arxiv.org/abs/2607.07836?utm_source=openai"
+    "https://openai.com/chatgpt-work/",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "https://openai.com/business/pricing/",
+    "https://github.com/simstudioai/sim",
+    "https://github.com/simstudioai/sim/releases/tag/v0.7.27",
+    "https://www.sim.ai/",
+    "https://microsoft.github.io/flint-chart/",
+    "https://github.com/microsoft/flint-chart"
   ],
-  "slug": "jet-long-infinity-parser2-neue-horizonte-für-kontext-und-dokumentparsing",
-  "duration_seconds": 425,
-  "word_count": 1063
+  "slug": "chatgpt-work-sim-und-flint-ki-übernimmt-ganze-abläufe",
+  "duration_seconds": 656,
+  "word_count": 1640
 }

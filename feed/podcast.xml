@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 10 Jul 2026 19:56:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 20:33:33 +0000</lastBuildDate>
     <itunes:author>KI Daily</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -27,14 +27,14 @@
     <itunes:summary>Jeden Morgen ein kompakter, tiefgehender Blick in die KI-Welt: virale Konzepte, neue Tools, praktische Anwendungsfälle und das Detailwissen, das dich technisch wirklich weiterbringt. Vollautomatisch generiert.
 </itunes:summary>
     <item>
-      <title>Jet-Long &amp; Infinity-Parser2: Neue Horizonte für Kontext und Dokumentparsing</title>
-      <description>Heute tauchen wir tief in Jet-Long zur dynamischen Langkontext-Verarbeitung und Infinity-Parser2 für multimodales Dokumentparsing ein. Es geht um bifokales RoPE, context window-Skalierung, Multi-Task-RL auf massiven synthetischen Datensätzen – und den realen Impact auf RAG, Enterprise Search und KI-gestützte Dokumentanalysen.</description>
+      <title>ChatGPT Work, Sim und Flint: KI übernimmt ganze Abläufe</title>
+      <description>ChatGPT Work entwickelt den Chatbot zur ausführenden Arbeitsoberfläche für längere Aufgaben weiter. Sim bietet einen visuellen und selbst hostbaren Baukasten für AI-Agent-Workflows. Microsoft Flint soll dafür sorgen, dass Agents aus Betriebs- und Geschäftsdaten reproduzierbare, brauchbare Diagramme erzeugen.</description>
       <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-07-10.mp3</guid>
-      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-07-10.mp3" length="9441792" type="audio/mpeg"/>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-07-10.mp3" length="14476032" type="audio/mpeg"/>
       <pubDate>Fri, 10 Jul 2026 05:00:00 +0000</pubDate>
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
-      <itunes:duration>7:05</itunes:duration>
-      <itunes:subtitle>Mehr Kontext, smarteres Parsing: Zwei bahnbrechende Ansätze für produktive KI-Pipelines.</itunes:subtitle>
+      <itunes:duration>10:56</itunes:duration>
+      <itunes:subtitle>Drei neue Werkzeuge zeigen, wie aus einzelnen Prompts belastbare Arbeitsabläufe, Agents und Reports werden.</itunes:subtitle>
     </item>
   </channel>
 </rss>
