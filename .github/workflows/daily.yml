@@ -1,0 +1,73 @@
+name: Daily KI-Podcast
+
+on:
+  schedule:
+    # 03:00 UTC = 05:00 (CEST, Sommer) / 04:00 (CET, Winter) Berlin.
+    # Immer deutlich vor 7 Uhr, damit das iPhone die Folge morgens hat.
+    - cron: "0 3 * * *"
+  workflow_dispatch:        # manuelles Auslösen zum Testen
+
+# Rechte, damit der Job Episoden & Feed zurück ins Repo committen darf
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "daily-podcast"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Folge erzeugen
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python src/main.py
+
+      - name: Episoden & Feed committen
+        run: |
+          git config user.name  "ki-podcast-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add episodes feed
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Folge $(date -u +%F)"
+            git push
+          fi
+
+  # Feed + Audio über GitHub Pages veröffentlichen
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout (aktueller Stand nach Commit)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Pages konfigurieren
+        uses: actions/configure-pages@v5
+      - name: Artefakt hochladen (ganzes Repo)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

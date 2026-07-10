@@ -1,0 +1,67 @@
+# ============================================================
+#  KI-Podcast – zentrale Konfiguration
+#  Alles Anpassbare an einem Ort. Keine Secrets hier rein!
+#  (Der OpenAI-Key kommt aus der Umgebungsvariable OPENAI_API_KEY)
+# ============================================================
+
+podcast:
+  title: "KI Daily – Dein täglicher AI Deep Dive"
+  subtitle: "Konkrete Einblicke, Detailwissen und die Trends, die die KI-Welt gerade bewegen."
+  description: >
+    Jeden Morgen ein kompakter, tiefgehender Blick in die KI-Welt:
+    virale Konzepte, neue Tools, praktische Anwendungsfälle und das
+    Detailwissen, das dich technisch wirklich weiterbringt.
+    Vollautomatisch generiert.
+  author: "KI Daily"
+  owner_email: "zloanthepriest@gmx.de"
+  language: "de"
+  category: "Technology"
+  explicit: false
+
+  # WICHTIG: Öffentliche Basis-URL, unter der die Dateien liegen.
+  # Bei GitHub Pages: https://<dein-user>.github.io/<repo-name>
+  # (Ohne Slash am Ende.) Wird für RSS-Feed & Audio-Links gebraucht.
+  base_url: "https://ejayscream.github.io/Podcast"
+
+  # Pfad zum Cover (Apple verlangt 1400x1400 – 3000x3000 px, quadratisch, JPG/PNG)
+  cover_image: "assets/cover.png"
+
+# ---- Inhaltliche Steuerung ----
+content:
+  language_style: "Deutsch, Fachbegriffe (z.B. context window, RAG, fine-tuning) im englischen Original belassen"
+  target_minutes: 10          # Ziellänge der Folge (8–12)
+  words_per_minute: 150       # Sprechtempo-Annahme für Längenberechnung
+  topics_per_episode: 2       # Anzahl vertiefter Themen pro Folge
+  audience: >
+    Technisch versierter Hörer, der vollumfänglich über KI-Tools im Bilde sein
+    will, neue Anwendungsbereiche und Verbesserungen sucht. Kein Anfänger –
+    will Substanz, keine Buzzwords.
+
+# ---- OpenAI-Modelle (IDs ggf. an deinen Account anpassen) ----
+openai:
+  research_model: "gpt-4.1"        # Modell für die Web-Recherche (Responses API + web_search)
+  writer_model: "gpt-4.1"          # Modell fürs Skript-Schreiben
+  tts_model: "gpt-4o-mini-tts"     # Text-to-Speech-Modell
+  tts_voice: "onyx"                # Stimme: alloy, echo, fable, onyx, nova, shimmer, sage, ...
+  tts_instructions: >
+    Sprich wie ein ruhiger, kompetenter deutscher Tech-Host am Morgen:
+    klar, wach, natürlich, mit sinnvollen Pausen. Nicht hektisch, nicht künstlich.
+
+# ---- Themenquellen (Feeds als Seed für die Recherche) ----
+sources:
+  max_seed_items: 25          # so viele Feed-Einträge maximal ins Research geben
+  feeds:
+    - name: "arXiv cs.AI"
+      url: "http://export.arxiv.org/rss/cs.AI"
+    - name: "arXiv cs.LG"
+      url: "http://export.arxiv.org/rss/cs.LG"
+    - name: "arXiv cs.CL"
+      url: "http://export.arxiv.org/rss/cs.CL"
+    - name: "Hacker News (AI/LLM)"
+      url: "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+agent&points=80"
+    - name: "Hugging Face Blog"
+      url: "https://huggingface.co/blog/feed.xml"
+
+# ---- Archiv / Aufräumen ----
+archive:
+  keep_last_episodes: 60      # ältere MP3s aus dem Repo entfernen (Feed bleibt schlank)
