@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-11",
+  "title": "KI-Agenten im Einsatz: ChatGPT Work, Slackbot und goose",
+  "subtitle": "Drei Wege, wie KI nicht mehr nur antwortet, sondern komplette Arbeitsaufträge übernimmt.",
+  "description": "ChatGPT Work erstellt aus Dateien und verbundenen Anwendungen fertige Reports, Präsentationen und Analysen. Slackbot bringt Agenten direkt in den Kommunikations- und Wissenskontext des Unternehmens, während goose eine offene und lokal kontrollierbare Alternative für IT-Workflows bietet. Die Folge zeigt konkrete Einsatzmöglichkeiten und erklärt, wie ein sicherer Pilot aussehen sollte.",
+  "tags": [
+    "KI-Agenten",
+    "ChatGPT Work",
+    "Slackbot",
+    "goose",
+    "IT-Automatisierung",
+    "MCP"
+  ],
+  "sources": [
+    "https://openai.com/chatgpt-work/",
+    "https://help.openai.com/en/articles/20001275/",
+    "https://slack.com/help/articles/202026038-How-to-use-Slackbot",
+    "https://slack.com/blog/news/the-ai-that-knows-your-work-and-organization",
+    "https://github.com/aaif-goose/goose",
+    "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation"
+  ],
+  "slug": "ki-agenten-im-einsatz-chatgpt-work-slackbot-und-goose",
+  "duration_seconds": 620,
+  "word_count": 1552
+}
