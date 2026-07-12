@@ -1,10 +1,11 @@
-name: Daily KI-Podcast
+name: KI-Podcast (Di & Fr)
 
 on:
   schedule:
     # 03:00 UTC = 05:00 (CEST, Sommer) / 04:00 (CET, Winter) Berlin.
     # Immer deutlich vor 7 Uhr, damit das iPhone die Folge morgens hat.
-    - cron: "0 3 * * *"
+    # 2,5 = Dienstag & Freitag (0=So … 6=Sa).
+    - cron: "0 3 * * 2,5"
   workflow_dispatch:        # manuelles Auslösen zum Testen
     inputs:
       force:

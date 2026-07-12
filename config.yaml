@@ -5,14 +5,14 @@
 # ============================================================
 
 podcast:
-  title: "KI Daily – Dein täglicher AI Deep Dive"
-  subtitle: "Konkrete Einblicke, Detailwissen und die Trends, die die KI-Welt gerade bewegen."
+  title: "KI Update – Der KI-Podcast"
+  subtitle: "Zweimal die Woche die KI-Tools, Trends und Anwendungen, die gerade zählen – kompakt und praxisnah."
   description: >
-    Jeden Morgen ein kompakter, tiefgehender Blick in die KI-Welt:
-    virale Konzepte, neue Tools, praktische Anwendungsfälle und das
-    Detailwissen, das dich technisch wirklich weiterbringt.
-    Vollautomatisch generiert.
-  author: "KI Daily"
+    Zweimal pro Woche (Dienstag & Freitag) ein kompakter Überblick über die
+    KI-Welt: neue Tools, virale Projekte, praktische Anwendungsfälle und wo du
+    sie im Job und privat einsetzt. Mehr Breite, klare Einordnung zum Mitreden
+    und Entscheiden – ohne Forschungstiefe. Vollautomatisch generiert.
+  author: "KI Update"
   owner_email: "zloanthepriest@gmx.de"
   language: "de"
   category: "Technology"
@@ -29,9 +29,12 @@ podcast:
 # ---- Inhaltliche Steuerung ----
 content:
   language_style: "Deutsch, Fachbegriffe (z.B. context window, RAG, fine-tuning) im englischen Original belassen"
-  target_minutes: 10          # Ziellänge der Folge (8–12)
+  target_minutes: 13          # Ziellänge der Folge (Breite statt Tiefe)
+  max_minutes: 15             # harte Obergrenze – Skript darf das NIE überschreiten
   words_per_minute: 150       # Sprechtempo-Annahme für Längenberechnung
-  topics_per_episode: 3       # Anzahl Themen pro Folge (mehr Breite, praxisnah)
+  topics_per_episode: 6       # Anzahl Themen pro Folge (mehr Breite, weniger Tiefe je Thema)
+  # 2×/Woche (Di & Fr): darum weniger Tiefe je Thema, dafür mehr Themen.
+  avoid_recent_episodes: 6    # Themen der letzten N Folgen NICHT wiederholen
   audience: >
     Erfahrener IT-Profi: IT-Systemadministrator, IT-Lead und KI-Consultant.
     KEIN Programmierer oder Modellentwickler und will es nicht werden – bleibt

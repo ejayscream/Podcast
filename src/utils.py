@@ -1,6 +1,7 @@
 """Gemeinsame Helfer: Config laden, Pfade, Datum/Slug."""
 from __future__ import annotations
 
+import json
 import os
 import re
 from datetime import datetime, timezone
@@ -38,6 +39,30 @@ def slugify(text: str) -> str:
 def ensure_dirs() -> None:
     EPISODES_DIR.mkdir(parents=True, exist_ok=True)
     FEED_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def recent_topics_block(n: int, exclude_date: str | None = None) -> str:
+    """Titel + Tags der letzten n Folgen als 'nicht wiederholen'-Liste.
+
+    Liest die episodes/*.json (neueste zuerst). Gibt "" zurück, wenn es
+    noch keine früheren Folgen gibt.
+    """
+    metas = sorted(EPISODES_DIR.glob("*.json"), reverse=True)
+    lines: list[str] = []
+    for meta_path in metas:
+        if exclude_date and meta_path.stem == exclude_date:
+            continue  # eine evtl. schon existierende Folge von heute nicht mitzählen
+        try:
+            data = json.loads(meta_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        title = (data.get("title") or "").strip()
+        tags = ", ".join(t for t in data.get("tags", []) if t)
+        if title:
+            lines.append(f"- {title}" + (f"  [Tags: {tags}]" if tags else ""))
+        if len(lines) >= n:
+            break
+    return "\n".join(lines)
 
 
 def _load_dotenv() -> None:

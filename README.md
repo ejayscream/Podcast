@@ -1,8 +1,10 @@
-# KI Daily – vollautomatischer täglicher KI-Podcast
+# KI Update – vollautomatischer KI-Podcast (2×/Woche)
 
-Erzeugt jeden Morgen automatisch eine 8–12-minütige Podcast-Folge über die
-relevantesten KI-Themen und stellt sie als privaten Podcast-Feed bereit –
-abonnierbar in Apple Podcasts. Kein manueller Eingriff nötig.
+Erzeugt zweimal pro Woche (Dienstag & Freitag, morgens) automatisch eine
+Podcast-Folge (max. 15 Min) mit mehreren kompakten KI-Themen und stellt sie als
+privaten Podcast-Feed bereit – abonnierbar in Apple Podcasts. Kein manueller
+Eingriff nötig. Ein Gedächtnis über die letzten Folgen verhindert, dass sich
+Themen wiederholen.
 
 ## Wie es funktioniert
 
@@ -18,7 +20,7 @@ Feeds (arXiv, HN, HF)            OpenAI Responses API + web_search
                                           ▼
                                      src/feed.py ──► feed/podcast.xml
                                           │
-                          GitHub Actions (03:00 UTC, täglich)
+                     GitHub Actions (03:00 UTC, Di & Fr)
                                           │
                                      GitHub Pages
                                           │
@@ -37,7 +39,7 @@ Feeds (arXiv, HN, HF)            OpenAI Responses API + web_search
 | `src/tts.py` | Text-to-Speech (MP3) |
 | `src/feed.py` | Podcast-RSS-Feed bauen |
 | `src/main.py` | Orchestrator (eine Folge erzeugen) |
-| `.github/workflows/daily.yml` | Täglicher Cron-Job in der Cloud |
+| `.github/workflows/daily.yml` | Cron-Job in der Cloud (Di & Fr) |
 | `episodes/` | Erzeugte MP3s + Metadaten (committet) |
 | `feed/podcast.xml` | Der abonnierbare Feed |
 | `assets/cover.png` | Podcast-Cover (selbst hinzufügen) |

@@ -11,9 +11,22 @@ import json
 from openai import OpenAI
 
 
-def research(client: OpenAI, cfg: dict, seed: str, date_iso: str) -> str:
+def research(client: OpenAI, cfg: dict, seed: str, date_iso: str, avoid: str = "") -> str:
     """Lässt das Modell die wichtigsten/viralsten KI-Themen von heute recherchieren."""
     n = cfg["content"]["topics_per_episode"]
+
+    avoid_block = ""
+    if avoid.strip():
+        avoid_block = f"""
+
+BEREITS BEHANDELT – NICHT WIEDERHOLEN:
+Die folgenden Themen kamen in den letzten Folgen schon vor. Wähle sie NICHT
+erneut. Ein Thema darf nur dann wieder auftauchen, wenn es eine echte,
+substanzielle neue Entwicklung dazu gibt (nicht nur, weil es weiter trending ist) –
+und dann mit klarem Fokus auf das Neue.
+{avoid}
+"""
+
     prompt = f"""Heutiges Datum: {date_iso}.
 
 Du bist Rechercheur für einen praxisorientierten deutschen KI-Podcast.
@@ -33,7 +46,7 @@ Auswahlkriterien (in dieser Priorität):
 2. Gerade trending / breit diskutiert / frisch gelauncht.
 3. Konkret integrierbar für einen IT-Profi & Anwender (Beruf oder privat).
 MEIDE: reine Forschungspaper, Modelltraining-/Mathematik-Details, PR-Geblubber.
-
+{avoid_block}
 Für JEDES gewählte Thema liefere:
 - Worum es geht – verständlich, in einem Satz auf den Punkt
 - Warum es JETZT relevant/trending ist
@@ -59,23 +72,32 @@ Gib strukturierte, faktendichte Recherchenotizen zurück (kein Fließtext-Skript
 def write_script(client: OpenAI, cfg: dict, notes: str, date_iso: str) -> dict:
     """Verwandelt Recherchenotizen in ein sendefertiges Skript (JSON)."""
     minutes = cfg["content"]["target_minutes"]
+    max_minutes = cfg["content"].get("max_minutes", minutes + 2)
     wpm = cfg["content"]["words_per_minute"]
     target_words = minutes * wpm
+    max_words = max_minutes * wpm
+    topics = cfg["content"]["topics_per_episode"]
     style = cfg["content"]["language_style"]
     audience = cfg["content"]["audience"]
 
-    system = f"""Du schreibst das Skript für eine Solo-Folge eines täglichen KI-Podcasts.
+    system = f"""Du schreibst das Skript für eine Solo-Folge eines KI-Podcasts (erscheint 2×/Woche).
 
 Stil & Sprache: {style}.
 Zielgruppe: {audience}
 Länge: ca. {minutes} Minuten Sprechzeit (~{target_words} Wörter).
+HARTE OBERGRENZE: NIEMALS länger als {max_minutes} Minuten bzw. {max_words} Wörter.
+Lieber je Thema knapper als diese Grenze reißen.
+
+Umfang: {topics} Themen, alle gleichwertig und KOMPAKT behandelt (im Schnitt
+rund {round(minutes / topics, 1)} Minuten pro Thema). Bewusst mehr Breite,
+weniger Tiefe je Thema – kein einzelnes Thema ausufern lassen.
 
 Redaktioneller Fokus: PRAXIS und ANWENDUNG, nicht Technik-Tiefe. Der Hörer will
 wissen, was ein Tool/Projekt kann, was es bringt und wo ER es einsetzen könnte –
 nicht, wie es intern funktioniert. Solide Einordnung zum Mitreden und Entscheiden,
 aber niemals Forschungs-, Mathematik- oder Coding-Ebene.
 
-Aufbau JEDES Themas (Format "Thema + so setzt du's ein"):
+Aufbau JEDES Themas (kompakt, Format "Thema + so setzt du's ein"):
 1. Was ist es – in einfachen Worten auf den Punkt.
 2. Warum es gerade relevant/trending ist.
 3. Was Leute konkret damit machen (echte Beispiele, echter Impact).

@@ -23,6 +23,7 @@ from utils import (
     EPISODES_DIR,
     ensure_dirs,
     load_config,
+    recent_topics_block,
     require_api_key,
     slugify,
     today_iso,
@@ -59,7 +60,10 @@ def run() -> int:
     seed = sources.seed_block(seed_items)
 
     print("[2/5] Web-Recherche ...")
-    notes = generate.research(client, cfg, seed, date_iso)
+    avoid = recent_topics_block(cfg["content"]["avoid_recent_episodes"], exclude_date=date_iso)
+    if avoid:
+        print(f"  ↳ meide Themen der letzten {len(avoid.splitlines())} Folge(n)")
+    notes = generate.research(client, cfg, seed, date_iso, avoid=avoid)
 
     print("[3/5] Skript schreiben ...")
     script_data = generate.write_script(client, cfg, notes, date_iso)
