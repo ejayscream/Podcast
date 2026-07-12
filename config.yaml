@@ -47,8 +47,8 @@ content:
 
 # ---- OpenAI-Modelle (IDs ggf. an deinen Account anpassen) ----
 openai:
-  research_model: "gpt-5.6-sol"    # Modell für die Web-Recherche (Responses API + web_search)
-  writer_model: "gpt-5.6-sol"      # Modell fürs Skript-Schreiben
+  research_model: "gpt-5.6-terra"  # Alltags-Wissensarbeit; ~halbe Kosten von Sol, praktisch gleiche Qualität hier
+  writer_model: "gpt-5.6-terra"    # Skript-Schreiben (Fließtext) – Terra reicht klar, s. Benchmark-Check 2026-07-12
   tts_model: "gpt-4o-mini-tts"     # Text-to-Speech-Modell
   tts_voice: "coral"               # freundliche, warme weibliche Stimme (Alt.: nova, shimmer, sage)
   tts_instructions: >
