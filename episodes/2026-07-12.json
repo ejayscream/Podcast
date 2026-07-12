@@ -1,29 +1,31 @@
 {
   "date": "2026-07-12",
-  "title": "KI-Agenten für Arbeit, lokal mit Goose und sicher im Betrieb",
-  "subtitle": "Wie du ganze Arbeitspakete delegierst, offene Agenten kontrolliert einsetzt und HalluSquatting abwehrst.",
-  "description": "ChatGPT Work und Claude Cowork machen aus Chatbots ausführende Arbeitsumgebungen für Reports, Assessments und wiederkehrende Wissensarbeit. Goose bietet eine offene, lokal betreibbare Alternative mit Zugriff auf Dateien, Tools und Unternehmenssysteme. Gleichzeitig zeigt HalluSquatting, warum autonome Installationen und weitreichende Agentenrechte zum Supply-Chain-Risiko werden.",
+  "title": "GPT‑5.6, Sprach-KI und private GPU-Cluster",
+  "subtitle": "Sechs neue KI-Werkzeuge für besseres Modellrouting, natürliche Sprache, lokale Infrastruktur, Browser-Automation, Videoschnitt und Lernen.",
+  "description": "Diese Folge ordnet GPT‑5.6 mit Sol, Terra und Luna, die Echtzeit-Sprach-KI GPT‑Live und das lokale GPU-Projekt Mesh LLM ein. Außerdem geht es um PlugThis für eigene Chrome-Erweiterungen, ChatCut für promptbasierten Videoschnitt und Ello 2.0 als spezialisierten KI-Tutor für Kinder. Im Mittelpunkt stehen konkrete Einsatzmöglichkeiten, Aufwand, Reifegrad und Grenzen.",
   "tags": [
-    "KI-Agenten",
-    "ChatGPT Work",
-    "Claude Cowork",
-    "Goose",
-    "HalluSquatting",
-    "IT-Security"
+    "GPT-5.6",
+    "Sprach-KI",
+    "Local AI",
+    "Browser-Automation",
+    "KI-Tools",
+    "Produktivität"
   ],
   "sources": [
-    "https://openai.com/chatgpt-work/",
-    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-    "https://claude.com/blog/cowork-web-mobile/",
-    "https://support.claude.com/en/articles/12138966-release-notes",
-    "https://github.com/aaif-goose/goose",
-    "https://goose-docs.ai/",
-    "https://goose-docs.ai/blog/2026/04/24/use-goose-with-built-in-local-inference/",
-    "https://goose-docs.ai/docs/guides/managing-tools/tool-permissions/",
-    "https://arxiv.org/abs/2607.07433",
-    "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
+    "https://openai.com/index/gpt-5-6/",
+    "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
+    "https://openai.com/index/introducing-gpt-live/",
+    "https://deploymentsafety.openai.com/gpt-live",
+    "https://www.iroh.computer/blog/mesh-llm",
+    "https://github.com/Mesh-LLM/mesh-llm",
+    "https://plugthis.ai/",
+    "https://www.producthunt.com/products/plugthis-chrome-extension-generator",
+    "https://chatcut.io/",
+    "https://chatcut.io/docs/what-is-chatcut",
+    "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+    "https://www.ello.com/blog/ai-should-make-clear-what-reality-is"
   ],
-  "slug": "ki-agenten-für-arbeit-lokal-mit-goose-und-sicher-im-betrieb",
-  "duration_seconds": 615,
-  "word_count": 1539
+  "slug": "gpt56-sprach-ki-und-private-gpu-cluster",
+  "duration_seconds": 596,
+  "word_count": 1491
 }
