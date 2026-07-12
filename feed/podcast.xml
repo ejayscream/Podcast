@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Sat, 11 Jul 2026 05:40:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 05:56:51 +0000</lastBuildDate>
     <itunes:author>KI Daily</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -45,6 +45,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>10:20</itunes:duration>
       <itunes:subtitle>Drei Wege, wie KI nicht mehr nur antwortet, sondern komplette Arbeitsaufträge übernimmt.</itunes:subtitle>
+    </item>
+    <item>
+      <title>KI-Agenten für Arbeit, lokal mit Goose und sicher im Betrieb</title>
+      <description>ChatGPT Work und Claude Cowork machen aus Chatbots ausführende Arbeitsumgebungen für Reports, Assessments und wiederkehrende Wissensarbeit. Goose bietet eine offene, lokal betreibbare Alternative mit Zugriff auf Dateien, Tools und Unternehmenssysteme. Gleichzeitig zeigt HalluSquatting, warum autonome Installationen und weitreichende Agentenrechte zum Supply-Chain-Risiko werden.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-07-12.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-07-12.mp3" length="14045184" type="audio/mpeg"/>
+      <pubDate>Sun, 12 Jul 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>10:15</itunes:duration>
+      <itunes:subtitle>Wie du ganze Arbeitspakete delegierst, offene Agenten kontrolliert einsetzt und HalluSquatting abwehrst.</itunes:subtitle>
     </item>
   </channel>
 </rss>

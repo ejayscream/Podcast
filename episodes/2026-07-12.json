@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-12",
+  "title": "KI-Agenten für Arbeit, lokal mit Goose und sicher im Betrieb",
+  "subtitle": "Wie du ganze Arbeitspakete delegierst, offene Agenten kontrolliert einsetzt und HalluSquatting abwehrst.",
+  "description": "ChatGPT Work und Claude Cowork machen aus Chatbots ausführende Arbeitsumgebungen für Reports, Assessments und wiederkehrende Wissensarbeit. Goose bietet eine offene, lokal betreibbare Alternative mit Zugriff auf Dateien, Tools und Unternehmenssysteme. Gleichzeitig zeigt HalluSquatting, warum autonome Installationen und weitreichende Agentenrechte zum Supply-Chain-Risiko werden.",
+  "tags": [
+    "KI-Agenten",
+    "ChatGPT Work",
+    "Claude Cowork",
+    "Goose",
+    "HalluSquatting",
+    "IT-Security"
+  ],
+  "sources": [
+    "https://openai.com/chatgpt-work/",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "https://claude.com/blog/cowork-web-mobile/",
+    "https://support.claude.com/en/articles/12138966-release-notes",
+    "https://github.com/aaif-goose/goose",
+    "https://goose-docs.ai/",
+    "https://goose-docs.ai/blog/2026/04/24/use-goose-with-built-in-local-inference/",
+    "https://goose-docs.ai/docs/guides/managing-tools/tool-permissions/",
+    "https://arxiv.org/abs/2607.07433",
+    "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
+  ],
+  "slug": "ki-agenten-für-arbeit-lokal-mit-goose-und-sicher-im-betrieb",
+  "duration_seconds": 615,
+  "word_count": 1539
+}
