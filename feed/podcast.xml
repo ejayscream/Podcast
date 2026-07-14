@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Sun, 12 Jul 2026 08:48:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 05:37:37 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -55,6 +55,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>9:56</itunes:duration>
       <itunes:subtitle>Sechs neue KI-Werkzeuge für besseres Modellrouting, natürliche Sprache, lokale Infrastruktur, Browser-Automation, Videoschnitt und Lernen.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Sites, Cowork und Canvas: KI-Workflows für den Alltag</title>
+      <description>Am 14. Juli 2026 geht es um ChatGPT Sites für interne Portale, Claude Cowork für länger laufende Aufgaben und Graphify als Wissenslandkarte für Infrastruktur und Dokumentation. Außerdem: Google AI Mode für belastbarere Recherche, PixVerse Canvas für wiederholbare KI-Video-Workflows und Gemini in Waze als Beispiel für KI direkt in etablierten Anwendungen.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-07-14.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-07-14.mp3" length="14666112" type="audio/mpeg"/>
+      <pubDate>Tue, 14 Jul 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>11:18</itunes:duration>
+      <itunes:subtitle>Sechs neue KI-Ansätze, die aus Material, Recherche und Routinen konkrete Ergebnisse machen.</itunes:subtitle>
     </item>
   </channel>
 </rss>

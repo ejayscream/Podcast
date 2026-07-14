@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-14",
+  "title": "Sites, Cowork und Canvas: KI-Workflows für den Alltag",
+  "subtitle": "Sechs neue KI-Ansätze, die aus Material, Recherche und Routinen konkrete Ergebnisse machen.",
+  "description": "Am 14. Juli 2026 geht es um ChatGPT Sites für interne Portale, Claude Cowork für länger laufende Aufgaben und Graphify als Wissenslandkarte für Infrastruktur und Dokumentation. Außerdem: Google AI Mode für belastbarere Recherche, PixVerse Canvas für wiederholbare KI-Video-Workflows und Gemini in Waze als Beispiel für KI direkt in etablierten Anwendungen.",
+  "tags": [
+    "KI-Tools",
+    "IT-Betrieb",
+    "Agenten",
+    "Recherche",
+    "Automatisierung",
+    "Produktivität"
+  ],
+  "sources": [
+    "https://openai.com/products/release-notes/",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+    "https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview",
+    "https://github.com/Graphify-Labs/graphify",
+    "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+    "https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/",
+    "https://pixverse.ai/en/blog/pixverse-canvas-ai-video-workflow",
+    "https://blog.google/waze/waze-updates-gemini-motorcycle-mode/"
+  ],
+  "slug": "sites-cowork-und-canvas-ki-workflows-für-den-alltag",
+  "duration_seconds": 678,
+  "word_count": 1696
+}
