@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-17",
+  "title": "Lokale Agenten, Vibe Networking und KI-Video im IT-Alltag",
+  "subtitle": "Sechs frische KI-Signale – von souveräner Dokumentenarbeit bis zu agententauglichen APIs.",
+  "description": "Heute geht es um den lokalen Arbeitsagenten LM Studio Bionic, das deutsch-englische Open Model Soofi S und KI-gestützte MikroTik-Konfigurationsarbeit mit Sicherheitsleitplanken. Außerdem: Google AI Mode mit Connected Apps, Google Vids mit Gemini Omni und DoorDash dd-cli als Signal für sichere, agententaugliche Software-Schnittstellen.",
+  "tags": [
+    "Local AI",
+    "Open Models",
+    "IT-Automatisierung",
+    "MikroTik",
+    "Google Vids",
+    "AI Agents"
+  ],
+  "sources": [
+    "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+    "https://arxiv.org/abs/2607.09424",
+    "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+    "https://manual.mikrotik.com/docs/developer-guides/rest-api/",
+    "https://support.google.com/websearch/answer/17265703",
+    "https://gemini.google.com/updates",
+    "https://github.com/doordash-oss/doordash-cli"
+  ],
+  "slug": "lokale-agenten-vibe-networking-und-ki-video-im-it-alltag",
+  "duration_seconds": 720,
+  "word_count": 1801
+}

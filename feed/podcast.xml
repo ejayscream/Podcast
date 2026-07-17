@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Tue, 14 Jul 2026 05:37:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 05:49:08 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -65,6 +65,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>11:18</itunes:duration>
       <itunes:subtitle>Sechs neue KI-Ansätze, die aus Material, Recherche und Routinen konkrete Ergebnisse machen.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Lokale Agenten, Vibe Networking und KI-Video im IT-Alltag</title>
+      <description>Heute geht es um den lokalen Arbeitsagenten LM Studio Bionic, das deutsch-englische Open Model Soofi S und KI-gestützte MikroTik-Konfigurationsarbeit mit Sicherheitsleitplanken. Außerdem: Google AI Mode mit Connected Apps, Google Vids mit Gemini Omni und DoorDash dd-cli als Signal für sichere, agententaugliche Software-Schnittstellen.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-07-17.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-07-17.mp3" length="15750144" type="audio/mpeg"/>
+      <pubDate>Fri, 17 Jul 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>12:00</itunes:duration>
+      <itunes:subtitle>Sechs frische KI-Signale – von souveräner Dokumentenarbeit bis zu agententauglichen APIs.</itunes:subtitle>
     </item>
   </channel>
 </rss>
