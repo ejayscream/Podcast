@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-21",
+  "title": "MCP ohne Sessions, Agent Identity und KI-Kosten im Griff",
+  "subtitle": "Sechs praxistaugliche Entwicklungen für skalierbare, sichere und wirtschaftliche KI-Workflows.",
+  "description": "Heute geht es um den Stateless-Refresh für MCP, Kimi K3 für große Dokumentmengen, AI-FinOps, eigene Identitäten für Agenten, Cognee als Team Memory und OmniRoute als lokales Modell-Gateway. Der Fokus liegt auf konkreten Entscheidungen für IT-Betrieb, Beratung und produktive KI-Integration.",
+  "tags": [
+    "MCP",
+    "Agent Identity",
+    "AI-FinOps",
+    "Kimi K3",
+    "RAG",
+    "KI-Gateway"
+  ],
+  "sources": [
+    "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+    "https://www.moonshot.ai/",
+    "https://www.finops.org/wg/finops-for-ai-tools-services-considerations/",
+    "https://learn.microsoft.com/en-us/entra/agent-id/agent-identities",
+    "https://github.com/topoteretes/cognee",
+    "https://github.com/diegosouzapw/OmniRoute"
+  ],
+  "slug": "mcp-ohne-sessions-agent-identity-und-ki-kosten-im-griff",
+  "duration_seconds": 734,
+  "word_count": 1837
+}

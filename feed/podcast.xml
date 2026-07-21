@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 17 Jul 2026 05:49:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 05:58:06 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -75,6 +75,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>12:00</itunes:duration>
       <itunes:subtitle>Sechs frische KI-Signale – von souveräner Dokumentenarbeit bis zu agententauglichen APIs.</itunes:subtitle>
+    </item>
+    <item>
+      <title>MCP ohne Sessions, Agent Identity und KI-Kosten im Griff</title>
+      <description>Heute geht es um den Stateless-Refresh für MCP, Kimi K3 für große Dokumentmengen, AI-FinOps, eigene Identitäten für Agenten, Cognee als Team Memory und OmniRoute als lokales Modell-Gateway. Der Fokus liegt auf konkreten Entscheidungen für IT-Betrieb, Beratung und produktive KI-Integration.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-07-21.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-07-21.mp3" length="16576896" type="audio/mpeg"/>
+      <pubDate>Tue, 21 Jul 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>12:14</itunes:duration>
+      <itunes:subtitle>Sechs praxistaugliche Entwicklungen für skalierbare, sichere und wirtschaftliche KI-Workflows.</itunes:subtitle>
     </item>
   </channel>
 </rss>
