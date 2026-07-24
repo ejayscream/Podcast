@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-24",
+  "title": "Agenten absichern, Security beschleunigen, KI sinnvoll nutzen",
+  "subtitle": "Sechs aktuelle KI-Themen mit konkreten Einsatzideen für IT-Betrieb, Beratung und Alltag.",
+  "description": "Diese Folge ordnet den Sicherheitsvorfall rund um einen OpenAI-Cyberagenten ein und zeigt, wie ein praktisches Agent Go-Live Gate aussieht. Außerdem geht es um Google CodeMender für Vulnerability Remediation, AegisAI gegen personalisiertes Phishing, Claude Voice für Voice-to-Operations, Runways Media Router und ChatGPT Health. Der Fokus liegt auf realistischen Piloten, Governance und produktivem Nutzen statt Tool-Hype.",
+  "tags": [
+    "AI Security",
+    "Agenten",
+    "Vulnerability Management",
+    "Phishing",
+    "Claude Voice",
+    "KI-Praxis"
+  ],
+  "sources": [
+    "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html",
+    "https://cloud.google.com/blog/products/identity-security/find-and-fix-software-vulnerabilities-with-codemender/",
+    "https://www.aegisai.ai/blog/cloud-email-security-microsoft-365-google-workspace",
+    "https://support.claude.com/en/articles/11101966-use-voice-mode",
+    "https://runway.com/news/company-news/introducing-runway-media-router",
+    "https://openai.com/index/health-in-chatgpt/"
+  ],
+  "slug": "agenten-absichern-security-beschleunigen-ki-sinnvoll-nutzen",
+  "duration_seconds": 762,
+  "word_count": 1906
+}

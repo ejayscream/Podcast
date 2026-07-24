@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Tue, 21 Jul 2026 05:58:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 05:57:28 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -85,6 +85,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>12:14</itunes:duration>
       <itunes:subtitle>Sechs praxistaugliche Entwicklungen für skalierbare, sichere und wirtschaftliche KI-Workflows.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Agenten absichern, Security beschleunigen, KI sinnvoll nutzen</title>
+      <description>Diese Folge ordnet den Sicherheitsvorfall rund um einen OpenAI-Cyberagenten ein und zeigt, wie ein praktisches Agent Go-Live Gate aussieht. Außerdem geht es um Google CodeMender für Vulnerability Remediation, AegisAI gegen personalisiertes Phishing, Claude Voice für Voice-to-Operations, Runways Media Router und ChatGPT Health. Der Fokus liegt auf realistischen Piloten, Governance und produktivem Nutzen statt Tool-Hype.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-07-24.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-07-24.mp3" length="16785408" type="audio/mpeg"/>
+      <pubDate>Fri, 24 Jul 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>12:42</itunes:duration>
+      <itunes:subtitle>Sechs aktuelle KI-Themen mit konkreten Einsatzideen für IT-Betrieb, Beratung und Alltag.</itunes:subtitle>
     </item>
   </channel>
 </rss>
