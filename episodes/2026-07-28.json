@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-28",
+  "title": "Sechs KI-Workflows: Ops, Agents, Suche und Share-Link-Risiken",
+  "subtitle": "Von kontrollierter Incident-Remediation bis zum schnellen Security-Sweep für Claude.",
+  "description": "Dynatrace bringt autonome Operations näher an freigegebene Remediation, OpenAI Presence zielt auf betreute Voice- und Chat-Agents. Außerdem: Railway Agent für schnelle interne Tools, Google AI Search als neuer Recherche- und Sichtbarkeitskanal, Siri AI in der iOS-27-Beta und ein sofortiger Audit von Claude-Share-Links.",
+  "tags": [
+    "AI Ops",
+    "Enterprise Agents",
+    "IT-Betrieb",
+    "KI-Security",
+    "Produktivität",
+    "Google AI Search"
+  ],
+  "sources": [
+    "https://www.dynatrace.com/news/press-release/autonomous-operations-enterprise-ai/",
+    "https://openai.com/index/introducing-openai-presence/",
+    "https://docs.railway.com/ai/railway-agent",
+    "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+    "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+    "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/"
+  ],
+  "slug": "sechs-ki-workflows-ops-agents-suche-und-share-link-risiken",
+  "duration_seconds": 654,
+  "word_count": 1637
+}
