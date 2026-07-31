@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-31",
+  "title": "Agenten absichern, Browser patchen, Wissen automatisieren",
+  "subtitle": "Sechs KI-Updates für sichere Agenten, schnellere SecOps und produktive Wissensarbeit.",
+  "description": "Heute geht es um harte Sicherheitsgrenzen für KI-Agenten, Browser-Patching im KI-Tempo und GitHub Agentic Workflows für den IT-Betrieb. Außerdem: Slackbot als Arbeitsagent, Goose für lokale Automatisierung und Context.dev als aktuelle Web-Datenquelle für Vendor Monitoring und Beratung.",
+  "tags": [
+    "KI-Agenten",
+    "IT-Security",
+    "SecOps",
+    "Automation",
+    "GitHub",
+    "Wissensarbeit"
+  ],
+  "sources": [
+    "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "https://chromium.googlesource.com/chromium/src.git/+/main/docs/security/ai-generated-security-bugs-faq.md",
+    "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview/",
+    "https://slack.com/blog/news/slackbot-context-aware-ai-agent-for-work",
+    "https://github.com/aaif-goose/goose",
+    "https://www.context.dev/"
+  ],
+  "slug": "agenten-absichern-browser-patchen-wissen-automatisieren",
+  "duration_seconds": 743,
+  "word_count": 1859
+}
