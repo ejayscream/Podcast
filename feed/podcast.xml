@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 31 Jul 2026 06:20:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 05:54:25 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -115,6 +115,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>12:23</itunes:duration>
       <itunes:subtitle>Sechs KI-Updates für sichere Agenten, schnellere SecOps und produktive Wissensarbeit.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Private KI-Apps, Slackbot und Beweise statt CVE-Panik</title>
+      <description>Heute geht es um Superblocks 3.0 für kontrolliertes Vibe Coding in AWS, Slackbot als Arbeitsoberfläche, wiederholbare Goose Recipes und Apples angekündigte Siri AI. Außerdem: Warum Security-Teams bei KI-generierten CVEs wieder konsequent Beweise verlangen müssen und wie KI privat bei Finanzplanung helfen kann, ohne zum Anlage-Autopiloten zu werden.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-08-04.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-08-04.mp3" length="16545792" type="audio/mpeg"/>
+      <pubDate>Tue, 04 Aug 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>12:51</itunes:duration>
+      <itunes:subtitle>Sechs aktuelle KI-Themen für kontrollierte Automatisierung, produktivere Teams und bessere Entscheidungen.</itunes:subtitle>
     </item>
   </channel>
 </rss>

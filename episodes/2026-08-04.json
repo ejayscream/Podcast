@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-04",
+  "title": "Private KI-Apps, Slackbot und Beweise statt CVE-Panik",
+  "subtitle": "Sechs aktuelle KI-Themen für kontrollierte Automatisierung, produktivere Teams und bessere Entscheidungen.",
+  "description": "Heute geht es um Superblocks 3.0 für kontrolliertes Vibe Coding in AWS, Slackbot als Arbeitsoberfläche, wiederholbare Goose Recipes und Apples angekündigte Siri AI. Außerdem: Warum Security-Teams bei KI-generierten CVEs wieder konsequent Beweise verlangen müssen und wie KI privat bei Finanzplanung helfen kann, ohne zum Anlage-Autopiloten zu werden.",
+  "tags": [
+    "Enterprise AI",
+    "Vibe Coding",
+    "Slackbot",
+    "IT Operations",
+    "Security",
+    "Produktivität"
+  ],
+  "sources": [
+    "https://www.superblocks.com/blog/superblocks-3-0-private-vibe-coding-built-for-the-age-of-ai-cyberattacks",
+    "https://slack.com/blog/productivity/how-we-rebuilt-slackbot",
+    "https://github.com/aaif-goose/goose",
+    "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+    "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+    "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions"
+  ],
+  "slug": "private-ki-apps-slackbot-und-beweise-statt-cve-panik",
+  "duration_seconds": 771,
+  "word_count": 1929
+}
