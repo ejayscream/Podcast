@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-07",
+  "title": "Sechs KI-Tools für kontrollierte Automatisierung",
+  "subtitle": "Von steuerbarem ChatGPT bis zum Kill Switch für Agenten: Was du jetzt praktisch testen kannst.",
+  "description": "Diese Folge ordnet sechs aktuelle KI-Themen für IT-Betrieb, Beratung und Produktivität ein: GPT-5.6 in ChatGPT, GitHub Agentic Workflows, den Railway Agent, RiskKernel, Naïve und Google Maps Ask Maps. Der Fokus liegt auf konkreten Piloten, sinnvollen Grenzen und darauf, wo Agenten heute bereits verlässlich Arbeit vorbereiten können.",
+  "tags": [
+    "KI-Agenten",
+    "IT-Betrieb",
+    "Automatisierung",
+    "Governance",
+    "ChatGPT",
+    "Produktivität"
+  ],
+  "sources": [
+    "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+    "https://github.com/github/gh-aw",
+    "https://docs.railway.com/ai",
+    "https://riskkernel.com/",
+    "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+    "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/"
+  ],
+  "slug": "sechs-ki-tools-für-kontrollierte-automatisierung",
+  "duration_seconds": 746,
+  "word_count": 1867
+}

@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Tue, 04 Aug 2026 05:54:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 05:01:05 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -125,6 +125,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>12:51</itunes:duration>
       <itunes:subtitle>Sechs aktuelle KI-Themen für kontrollierte Automatisierung, produktivere Teams und bessere Entscheidungen.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Sechs KI-Tools für kontrollierte Automatisierung</title>
+      <description>Diese Folge ordnet sechs aktuelle KI-Themen für IT-Betrieb, Beratung und Produktivität ein: GPT-5.6 in ChatGPT, GitHub Agentic Workflows, den Railway Agent, RiskKernel, Naïve und Google Maps Ask Maps. Der Fokus liegt auf konkreten Piloten, sinnvollen Grenzen und darauf, wo Agenten heute bereits verlässlich Arbeit vorbereiten können.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-08-07.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-08-07.mp3" length="15868032" type="audio/mpeg"/>
+      <pubDate>Fri, 07 Aug 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>12:26</itunes:duration>
+      <itunes:subtitle>Von steuerbarem ChatGPT bis zum Kill Switch für Agenten: Was du jetzt praktisch testen kannst.</itunes:subtitle>
     </item>
   </channel>
 </rss>
