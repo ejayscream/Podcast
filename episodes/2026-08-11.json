@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-11",
+  "title": "Sechs KI-Workspaces: Security, lokal, Sprache und Cloud",
+  "subtitle": "Von getesteten Security-Fixes bis zum lokalen Sprachassistenten: sechs neue Werkzeuge für den praktischen KI-Einsatz.",
+  "description": "Diese Folge vom 11. August 2026 ordnet OpenAI Daybreak, Claude Cowork, Meta Muse Glimmer, OpenWork, Hugging Faces speech-to-speech und den Railway Agent ein. Im Mittelpunkt stehen konkrete Workflows für IT-Betrieb, Beratung, Teamarbeit und private Produktivität. Dazu gibt es jeweils eine ehrliche Einschätzung zu Reifegrad, Aufwand und sinnvollen ersten Schritten.",
+  "tags": [
+    "KI-Tools",
+    "IT-Betrieb",
+    "Security",
+    "lokale KI",
+    "Agenten",
+    "Automatisierung"
+  ],
+  "sources": [
+    "https://openai.com/daybreak/",
+    "https://openai.com/index/daybreak-securing-the-world/",
+    "https://www.anthropic.com/product/claude-cowork",
+    "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+    "https://github.com/different-ai/openwork",
+    "https://github.com/huggingface/speech-to-speech",
+    "https://docs.railway.com/ai/railway-agent"
+  ],
+  "slug": "sechs-ki-workspaces-security-lokal-sprache-und-cloud",
+  "duration_seconds": 654,
+  "word_count": 1637
+}

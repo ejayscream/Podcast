@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 07 Aug 2026 05:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 04:25:33 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -135,6 +135,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>12:26</itunes:duration>
       <itunes:subtitle>Von steuerbarem ChatGPT bis zum Kill Switch für Agenten: Was du jetzt praktisch testen kannst.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Sechs KI-Workspaces: Security, lokal, Sprache und Cloud</title>
+      <description>Diese Folge vom 11. August 2026 ordnet OpenAI Daybreak, Claude Cowork, Meta Muse Glimmer, OpenWork, Hugging Faces speech-to-speech und den Railway Agent ein. Im Mittelpunkt stehen konkrete Workflows für IT-Betrieb, Beratung, Teamarbeit und private Produktivität. Dazu gibt es jeweils eine ehrliche Einschätzung zu Reifegrad, Aufwand und sinnvollen ersten Schritten.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-08-11.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-08-11.mp3" length="14683008" type="audio/mpeg"/>
+      <pubDate>Tue, 11 Aug 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>10:54</itunes:duration>
+      <itunes:subtitle>Von getesteten Security-Fixes bis zum lokalen Sprachassistenten: sechs neue Werkzeuge für den praktischen KI-Einsatz.</itunes:subtitle>
     </item>
   </channel>
 </rss>
