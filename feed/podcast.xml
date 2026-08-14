@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Tue, 11 Aug 2026 04:25:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 04:53:55 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -145,6 +145,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>10:54</itunes:duration>
       <itunes:subtitle>Von getesteten Security-Fixes bis zum lokalen Sprachassistenten: sechs neue Werkzeuge für den praktischen KI-Einsatz.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Agenten im Alltag: Cowork, Kostenkontrolle und sichere KI-Tools</title>
+      <description>Am Freitag, 14. August 2026, geht es um Claude Cowork für Desktop-Aufgaben, AI FinOps mit dem Harness-Gedanken von Writer, den Open-Source-Agenten Goose und Claude Tag mit eigener Agent-Identity in Slack. Dazu: KI-Diktat mit Wispr Flow sowie ein sofortiger Security-Check für KI-Plugins, MCP-Server und Credentials in der Software Supply Chain.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-08-14.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-08-14.mp3" length="15283968" type="audio/mpeg"/>
+      <pubDate>Fri, 14 Aug 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>11:27</itunes:duration>
+      <itunes:subtitle>Sechs aktuelle KI-Themen für produktive Workflows, kontrollierte Zugriffe und weniger Risiko im IT-Alltag.</itunes:subtitle>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-14",
+  "title": "Agenten im Alltag: Cowork, Kostenkontrolle und sichere KI-Tools",
+  "subtitle": "Sechs aktuelle KI-Themen für produktive Workflows, kontrollierte Zugriffe und weniger Risiko im IT-Alltag.",
+  "description": "Am Freitag, 14. August 2026, geht es um Claude Cowork für Desktop-Aufgaben, AI FinOps mit dem Harness-Gedanken von Writer, den Open-Source-Agenten Goose und Claude Tag mit eigener Agent-Identity in Slack. Dazu: KI-Diktat mit Wispr Flow sowie ein sofortiger Security-Check für KI-Plugins, MCP-Server und Credentials in der Software Supply Chain.",
+  "tags": [
+    "KI-Agenten",
+    "IT-Betrieb",
+    "AI FinOps",
+    "MCP",
+    "Supply Chain Security",
+    "Produktivität"
+  ],
+  "sources": [
+    "https://claude.com/product/cowork",
+    "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+    "https://github.com/aaif-goose/goose",
+    "https://www.anthropic.com/news/introducing-claude-tag",
+    "https://wisprflow.ai/",
+    "https://docs.github.com/en/code-security/concepts/supply-chain-security/supply-chain-security"
+  ],
+  "slug": "agenten-im-alltag-cowork-kostenkontrolle-und-sichere-ki-tools",
+  "duration_seconds": 687,
+  "word_count": 1718
+}
