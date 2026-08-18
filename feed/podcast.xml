@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 14 Aug 2026 04:53:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 03:50:57 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -155,6 +155,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>11:27</itunes:duration>
       <itunes:subtitle>Sechs aktuelle KI-Themen für produktive Workflows, kontrollierte Zugriffe und weniger Risiko im IT-Alltag.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Sechs KI-Impulse: sichere Automatisierung statt Modell-Hype</title>
+      <description>Heute geht es um KI-generierten Code in CI/CD, Wispr Flow als Voice Layer, bessere PDF-Ingestion für RAG, AI Gateways mit OpenRouter, Team Memory für Agenten und verbindliche KI-Hygiene. Der Fokus liegt auf Maßnahmen und Piloten, die IT-Teams, Consultants und Wissensarbeiter jetzt realistisch angehen können.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-08-18.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-08-18.mp3" length="15480576" type="audio/mpeg"/>
+      <pubDate>Tue, 18 Aug 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>11:49</itunes:duration>
+      <itunes:subtitle>Von CI/CD-Sicherheit über Voice Notes bis Team Memory: sechs konkrete Hebel für den Arbeitsalltag.</itunes:subtitle>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-18",
+  "title": "Sechs KI-Impulse: sichere Automatisierung statt Modell-Hype",
+  "subtitle": "Von CI/CD-Sicherheit über Voice Notes bis Team Memory: sechs konkrete Hebel für den Arbeitsalltag.",
+  "description": "Heute geht es um KI-generierten Code in CI/CD, Wispr Flow als Voice Layer, bessere PDF-Ingestion für RAG, AI Gateways mit OpenRouter, Team Memory für Agenten und verbindliche KI-Hygiene. Der Fokus liegt auf Maßnahmen und Piloten, die IT-Teams, Consultants und Wissensarbeiter jetzt realistisch angehen können.",
+  "tags": [
+    "KI-Praxis",
+    "IT-Betrieb",
+    "CI/CD-Security",
+    "RAG",
+    "AI-Gateway",
+    "Produktivität"
+  ],
+  "sources": [
+    "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "https://docs.github.com/en/actions/concepts/security/script-injections",
+    "https://wisprflow.ai/",
+    "https://github.com/firecrawl/pdf-inspector",
+    "https://openrouter.ai/docs/quickstart",
+    "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "https://dontpastetheai.com/"
+  ],
+  "slug": "sechs-ki-impulse-sichere-automatisierung-statt-modell-hype",
+  "duration_seconds": 709,
+  "word_count": 1773
+}
