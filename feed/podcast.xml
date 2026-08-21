@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Tue, 18 Aug 2026 03:50:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 03:56:11 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -165,6 +165,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>11:49</itunes:duration>
       <itunes:subtitle>Von CI/CD-Sicherheit über Voice Notes bis Team Memory: sechs konkrete Hebel für den Arbeitsalltag.</itunes:subtitle>
+    </item>
+    <item>
+      <title>KI im Nachrichten-Chat, im Serverbetrieb und im Familienalltag</title>
+      <description>Heute geht es um ChatGPT in Apple Messages, Wispr Flow Notetaker, Google Preferred Sources, das Admin-Tool witr, Railway Remote MCP und das Familienboard Linkdaze. Der Fokus liegt auf konkreten Workflows, sinnvollen Piloten und den Grenzen bei Datenschutz, Berechtigungen und Reifegrad.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-08-21.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-08-21.mp3" length="14973312" type="audio/mpeg"/>
+      <pubDate>Fri, 21 Aug 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>11:48</itunes:duration>
+      <itunes:subtitle>Sechs neue Werkzeuge für Kommunikation, Recherche, IT-Triage, POCs und den privaten Alltag.</itunes:subtitle>
     </item>
   </channel>
 </rss>

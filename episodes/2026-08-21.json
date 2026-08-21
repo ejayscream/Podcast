@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-21",
+  "title": "KI im Nachrichten-Chat, im Serverbetrieb und im Familienalltag",
+  "subtitle": "Sechs neue Werkzeuge für Kommunikation, Recherche, IT-Triage, POCs und den privaten Alltag.",
+  "description": "Heute geht es um ChatGPT in Apple Messages, Wispr Flow Notetaker, Google Preferred Sources, das Admin-Tool witr, Railway Remote MCP und das Familienboard Linkdaze. Der Fokus liegt auf konkreten Workflows, sinnvollen Piloten und den Grenzen bei Datenschutz, Berechtigungen und Reifegrad.",
+  "tags": [
+    "KI-Tools",
+    "IT-Betrieb",
+    "Produktivität",
+    "Recherche",
+    "MCP",
+    "Datenschutz"
+  ],
+  "sources": [
+    "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+    "https://wisprflow.ai/",
+    "https://blog.google/products-and-platforms/products/search/preferred-sources-language-expansion/",
+    "https://github.com/pranshuparmar/witr",
+    "https://blog.railway.com/p/agent-rails-remote-mcp-cli",
+    "https://linkdaze.com/"
+  ],
+  "slug": "ki-im-nachrichten-chat-im-serverbetrieb-und-im-familienalltag",
+  "duration_seconds": 708,
+  "word_count": 1771
+}
