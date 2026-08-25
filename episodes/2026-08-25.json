@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-25",
+  "title": "KI-Praxis: OCR, Agentenregeln und Home Operations",
+  "subtitle": "Sechs neue Werkzeuge und Betriebsmodelle, die KI im Alltag kontrollierter und nützlicher machen.",
+  "description": "Heute geht es um lokale OCR mit OCR It, versionierte Regeln für KI-Agenten mit AGENTS.md, persistente Cloud Agents bei Railway und offene Workflow-Agenten mit Goose. Außerdem ordnen wir Instinct als Governance-Testfall für persönliche Agenten ein und schauen auf Linkdaze als KI-gestützten Familienkalender. Der Fokus liegt durchgehend auf konkretem Einsatz, Zugriffskontrolle und einem realistischen Reifegrad.",
+  "tags": [
+    "KI-Praxis",
+    "Agenten",
+    "IT-Betrieb",
+    "Governance",
+    "Automatisierung",
+    "Produktivität"
+  ],
+  "sources": [
+    "https://github.com/thiagotigaz/ocr-it",
+    "https://fabiensanglard.net/agent.md/index.html",
+    "https://docs.railway.com/cloud-agents",
+    "https://block.github.io/goose/",
+    "https://instinct.co/",
+    "https://linkdaze.com/"
+  ],
+  "slug": "ki-praxis-ocr-agentenregeln-und-home-operations",
+  "duration_seconds": 692,
+  "word_count": 1732
+}
