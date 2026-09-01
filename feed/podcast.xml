@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 28 Aug 2026 15:11:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 08:29:36 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -195,6 +195,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>11:38</itunes:duration>
       <itunes:subtitle>Sechs aktuelle Entwicklungen, die Reiseplanung, Dokumentation, Governance und Review-Prozesse konkret verändern.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Lokale KI-Suche, ZDR und Hardware-Agenten im Praxischeck</title>
+      <description>Zum 1. September 2026 geht es um Clipto für die lokale Suche in Medienarchiven, ChatGPT Library mit Google Drive, Zero Data Retention für sensible API-Workloads und neue Copilot-Metriken. Außerdem: der Model Hardware Standard als Signal für OT und Robotik sowie ChatGPT Health als Beispiel für abgegrenzten persönlichen KI-Kontext. Der Fokus liegt auf sinnvollen Piloten, Governance und sofort nutzbaren Workflows.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-09-01.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-09-01.mp3" length="15571200" type="audio/mpeg"/>
+      <pubDate>Tue, 01 Sep 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>11:34</itunes:duration>
+      <itunes:subtitle>Sechs neue KI-Themen mit konkreten Einsatzhebeln für IT-Betrieb, Beratung und Alltag.</itunes:subtitle>
     </item>
   </channel>
 </rss>

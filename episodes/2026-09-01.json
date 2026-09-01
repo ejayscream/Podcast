@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-01",
+  "title": "Lokale KI-Suche, ZDR und Hardware-Agenten im Praxischeck",
+  "subtitle": "Sechs neue KI-Themen mit konkreten Einsatzhebeln für IT-Betrieb, Beratung und Alltag.",
+  "description": "Zum 1. September 2026 geht es um Clipto für die lokale Suche in Medienarchiven, ChatGPT Library mit Google Drive, Zero Data Retention für sensible API-Workloads und neue Copilot-Metriken. Außerdem: der Model Hardware Standard als Signal für OT und Robotik sowie ChatGPT Health als Beispiel für abgegrenzten persönlichen KI-Kontext. Der Fokus liegt auf sinnvollen Piloten, Governance und sofort nutzbaren Workflows.",
+  "tags": [
+    "KI-Praxis",
+    "IT-Operations",
+    "ChatGPT",
+    "Governance",
+    "Copilot",
+    "MCP"
+  ],
+  "sources": [
+    "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+    "https://www.clipto.com/mcp",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+    "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity/",
+    "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "https://openai.com/index/health-in-chatgpt/"
+  ],
+  "slug": "lokale-ki-suche-zdr-und-hardware-agenten-im-praxischeck",
+  "duration_seconds": 694,
+  "word_count": 1737
+}
