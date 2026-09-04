@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-04",
+  "title": "KI-Praxis: Computer-Use, Kostenkontrolle und Ausfallpläne",
+  "subtitle": "Sechs neue Ansätze für produktive KI-Workflows, sicheren Betrieb und echte Team-Adoption.",
+  "description": "GPT-6 Astra bringt Computer-Use in Browser, Dokumente und Tabellen, Gemini 3.8 Flash zielt auf günstige operative KI-Arbeit. Dazu geht es um ARBR als KI-Control-Plane, Betriebspläne für Provider-Ausfälle, Video-Compliance mit TwelveLabs und rollenbasierte Adoption mit myAIcademy. Der Fokus liegt auf konkreten Einsatzideen für IT-Betrieb, Beratung und persönliche Produktivität.",
+  "tags": [
+    "KI-Operations",
+    "Computer-Use",
+    "LLM-Governance",
+    "IT-Betrieb",
+    "Compliance",
+    "AI-Adoption"
+  ],
+  "sources": [
+    "https://openai.com/index/gpt-6-astra/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "https://projectarbr.org/",
+    "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
+    "https://www.twelvelabs.io/compliance",
+    "https://www.myaicademy.com/"
+  ],
+  "slug": "ki-praxis-computer-use-kostenkontrolle-und-ausfallpläne",
+  "duration_seconds": 722,
+  "word_count": 1805
+}
