@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-08",
+  "title": "KI im Betrieb: Grenzen, Routing und Wissen nutzbar machen",
+  "subtitle": "Sechs konkrete Bausteine, mit denen KI im IT-Alltag kontrolliert produktiver wird.",
+  "description": "Heute geht es um Agent Permissioning, Model Routing und Incident-Simulationen für AI-SRE. Außerdem: MAI-Transcribe-2 für durchsuchbare Gespräche, AI Toolbox als persönliches Chat-Archiv und DocsAlot für agententaugliche Dokumentation. Der rote Faden: KI bringt den größten Nutzen als kontrollierte operative Schicht, nicht als ungebremster autonomer Mitarbeiter.",
+  "tags": [
+    "KI-Betrieb",
+    "AI Agents",
+    "ITSM",
+    "Model Routing",
+    "Dokumentation",
+    "Produktivität"
+  ],
+  "sources": [
+    "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
+    "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+    "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+    "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/",
+    "https://www.producthunt.com/products/chatgpt-toolbox",
+    "https://www.producthunt.com/products/docsalot-2"
+  ],
+  "slug": "ki-im-betrieb-grenzen-routing-und-wissen-nutzbar-machen",
+  "duration_seconds": 669,
+  "word_count": 1673
+}
