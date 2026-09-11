@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Tue, 08 Sep 2026 07:59:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 07:58:13 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -225,6 +225,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>11:09</itunes:duration>
       <itunes:subtitle>Sechs konkrete Bausteine, mit denen KI im IT-Alltag kontrolliert produktiver wird.</itunes:subtitle>
+    </item>
+    <item>
+      <title>Daten-Agenten, GUI-Automation und Security für KI-Teams</title>
+      <description>Diese Folge vom 11. September 2026 ordnet den ChatGPT Work Data Agent, GPT-6 Astra und ChatGPT Images 2.5 ein. Außerdem geht es um die Open-Source-Experimente PawWork und Reverify sowie um die dringendere Absicherung von API-Keys, Tokens und agentischen Zugängen.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-09-11.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-09-11.mp3" length="16208640" type="audio/mpeg"/>
+      <pubDate>Fri, 11 Sep 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>11:52</itunes:duration>
+      <itunes:subtitle>Sechs neue Ansätze, die Datenarbeit, Browser-Workflows und KI-Governance praktisch verändern können.</itunes:subtitle>
     </item>
   </channel>
 </rss>

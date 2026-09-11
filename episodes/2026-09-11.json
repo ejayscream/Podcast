@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-11",
+  "title": "Daten-Agenten, GUI-Automation und Security für KI-Teams",
+  "subtitle": "Sechs neue Ansätze, die Datenarbeit, Browser-Workflows und KI-Governance praktisch verändern können.",
+  "description": "Diese Folge vom 11. September 2026 ordnet den ChatGPT Work Data Agent, GPT-6 Astra und ChatGPT Images 2.5 ein. Außerdem geht es um die Open-Source-Experimente PawWork und Reverify sowie um die dringendere Absicherung von API-Keys, Tokens und agentischen Zugängen.",
+  "tags": [
+    "KI-Agenten",
+    "Enterprise AI",
+    "IT-Security",
+    "Automatisierung",
+    "Open Source",
+    "Governance"
+  ],
+  "sources": [
+    "https://openai.com/index/put-data-to-work/",
+    "https://openai.com/index/gpt-6-astra-next-generation-work/",
+    "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "https://github.com/Player-YN/PawWork_ZhuaZhua",
+    "https://github.com/2akouwu/reverify",
+    "https://www.anthropic.com/threat-intelligence-report-september-2026"
+  ],
+  "slug": "daten-agenten-gui-automation-und-security-für-ki-teams",
+  "duration_seconds": 712,
+  "word_count": 1780
+}
