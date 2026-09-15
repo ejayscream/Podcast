@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-15",
+  "title": "Siri AI, Agenten-Workflows und Physical AI im Praxischeck",
+  "subtitle": "Sechs neue Werkzeuge und Plattformänderungen, die du jetzt realistisch bewerten oder testen kannst.",
+  "description": "Heute geht es um Siri AI in iOS 27, neue Cloudflare-Policies für KI-Crawler und Agenten, GitHub Agentic Workflows, den Agenten-Hoster jurniti, die Sprach-Inbox Grimo AI und den Roboterhund Unitree Go2. Der Fokus liegt auf konkreten Einsatzmöglichkeiten für IT-Betrieb, Beratung und persönliche Produktivität – inklusive ehrlicher Einschätzung zu Aufwand, Reife und Risiken.",
+  "tags": [
+    "KI-Praxis",
+    "IT-Betrieb",
+    "Automatisierung",
+    "Agenten",
+    "Cloudflare",
+    "Productivity"
+  ],
+  "sources": [
+    "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+    "https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/",
+    "https://docs.github.com/en/actions/tutorials/develop-agentic-workflows-in-github-actions",
+    "https://www.jurniti.com/",
+    "https://grimoai.com/",
+    "https://www.unitree.com/go2/"
+  ],
+  "slug": "siri-ai-agenten-workflows-und-physical-ai-im-praxischeck",
+  "duration_seconds": 755,
+  "word_count": 1889
+}
