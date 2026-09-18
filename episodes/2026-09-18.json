@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-18",
+  "title": "Sechs KI-Workflows für IT-Alltag, Audit und bessere Dokumente",
+  "subtitle": "Von Claude als Arbeitsmodus bis zum LLM-Lektorat: sechs direkt einordbare KI-Praxisideen.",
+  "description": "In dieser Folge: Claude mit integriertem Cowork, Firefox Smart Window mit Mistral, OpenSpec für klare KI-Projekte, Cloudflares Security Audit Skill und Alibaba Open Code Review. Außerdem geht es um einen besonders niedrigschwelligen Workflow: LLMs nicht als Ghostwriter, sondern als kritische Lektoren für Runbooks, Angebote und Postmortems einzusetzen.",
+  "tags": [
+    "KI-Praxis",
+    "IT-Betrieb",
+    "Agenten",
+    "Security",
+    "Dokumentation",
+    "Open Source"
+  ],
+  "sources": [
+    "https://claude.com/blog/cowork-is-now-claude",
+    "https://mistral.ai/news/mistral-x-mozilla/",
+    "https://openspec.dev/",
+    "https://github.com/cloudflare/security-audit-skill",
+    "https://github.com/alibaba/open-code-review",
+    "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/"
+  ],
+  "slug": "sechs-ki-workflows-für-it-alltag-audit-und-bessere-dokumente",
+  "duration_seconds": 692,
+  "word_count": 1730
+}
