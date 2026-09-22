@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-22",
+  "title": "KI-Agenten im Alltag: Rechte, Cursor, Dokumente und Teams",
+  "subtitle": "Sechs neue KI-Ansätze – und die konkreten Piloten, die sich jetzt wirklich lohnen.",
+  "description": "Diese Folge ordnet Meta Muse, Googlebook, Tabby, WZRD, Edyt und Googles Gruppen-Agent CC ein. Im Fokus stehen sichere Agenten-Berechtigungen, KI direkt in der Arbeitsoberfläche, interaktive Dokumente und kleine, messbare Piloten für IT-Betrieb, Beratung und Privatleben. Die zentrale Frage lautet: Wo entsteht echter Nutzen, ohne produktive Identitäten und sensible Daten unnötig zu riskieren?",
+  "tags": [
+    "KI-Agenten",
+    "IAM",
+    "Produktivität",
+    "IT-Betrieb",
+    "Google",
+    "Automation"
+  ],
+  "sources": [
+    "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+    "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+    "https://store.google.com/category/laptops?hl=en-US",
+    "https://www.usetabby.com/",
+    "https://ahandani.com/posts/introducing-edyt",
+    "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/"
+  ],
+  "slug": "ki-agenten-im-alltag-rechte-cursor-dokumente-und-teams",
+  "duration_seconds": 658,
+  "word_count": 1647
+}
