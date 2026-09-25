@@ -14,7 +14,7 @@
       <link>https://ejayscream.github.io/Podcast/feed/podcast.xml</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Tue, 22 Sep 2026 08:25:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 08:42:19 +0000</lastBuildDate>
     <itunes:author>KI Update</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
@@ -265,6 +265,16 @@
       <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
       <itunes:duration>10:58</itunes:duration>
       <itunes:subtitle>Sechs neue KI-Ansätze – und die konkreten Piloten, die sich jetzt wirklich lohnen.</itunes:subtitle>
+    </item>
+    <item>
+      <title>KI im Alltag: Telefon, Tutor, Agenten und persönliche Daten</title>
+      <description>Diese Folge ordnet autonome Arbeitsagenten mit eigener Identität ein, zieht Lehren aus einem gemeldeten Agenten-Sicherheitsvorfall und schaut auf KI am Telefon. Außerdem geht es um KI-Tutoring, eine KI-Telefonzentrale für Service-Teams und Google Photos Wardrobe als Beispiel für KI auf persönlichen Datenbeständen.</description>
+      <guid isPermaLink="false">https://ejayscream.github.io/Podcast/episodes/2026-09-25.mp3</guid>
+      <enclosure url="https://ejayscream.github.io/Podcast/episodes/2026-09-25.mp3" length="15433344" type="audio/mpeg"/>
+      <pubDate>Fri, 25 Sep 2026 05:00:00 +0000</pubDate>
+      <itunes:image href="https://ejayscream.github.io/Podcast/assets/cover.png"/>
+      <itunes:duration>12:30</itunes:duration>
+      <itunes:subtitle>Sechs praktische KI-Entwicklungen – mit klaren Pilotideen und Sicherheitsleitplanken.</itunes:subtitle>
     </item>
   </channel>
 </rss>

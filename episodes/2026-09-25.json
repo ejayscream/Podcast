@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-25",
+  "title": "KI im Alltag: Telefon, Tutor, Agenten und persönliche Daten",
+  "subtitle": "Sechs praktische KI-Entwicklungen – mit klaren Pilotideen und Sicherheitsleitplanken.",
+  "description": "Diese Folge ordnet autonome Arbeitsagenten mit eigener Identität ein, zieht Lehren aus einem gemeldeten Agenten-Sicherheitsvorfall und schaut auf KI am Telefon. Außerdem geht es um KI-Tutoring, eine KI-Telefonzentrale für Service-Teams und Google Photos Wardrobe als Beispiel für KI auf persönlichen Datenbeständen.",
+  "tags": [
+    "KI-Agenten",
+    "Voice AI",
+    "IT-Security",
+    "KI-Tutoring",
+    "Google Photos",
+    "IT-Betrieb"
+  ],
+  "sources": [
+    "https://solid.tech/",
+    "https://www.producthunt.com/products/solid",
+    "https://www.aihw.gov.au/news-media/media-releases/2026/september/a-statement-from-the-australian-institute-of-health-and-welfare",
+    "https://support.google.com/gemini/answer/18336420?hl=en",
+    "https://elevenlabs.io/reception",
+    "https://elevenlabs.io/pricing/agents",
+    "https://openai.com/index/chatgpt-study-mode/",
+    "https://blog.google/products-and-platforms/products/photos/google-photos-wardrobe-feature/"
+  ],
+  "slug": "ki-im-alltag-telefon-tutor-agenten-und-persönliche-daten",
+  "duration_seconds": 750,
+  "word_count": 1877
+}
